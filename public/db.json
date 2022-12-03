@@ -1,0 +1,31 @@
+{"books": [{
+  "id":1,
+  "title": "Web-Database Appl Development",
+  "year": "CSCI-6655-01",
+  "published": false
+
+},
+{
+  "id":2,
+  "title": "Script Programming/Python",
+  "year": "CSCI-6651-02",
+  "published": true
+},
+{
+  "id":3,
+  "title": "Data Mining",
+  "year": "CSCI-6402-01",
+  "published": true
+},
+{
+  "id":4,
+  "title": "Intro Artificial Intelligence",
+  "year": "CSCI-6660-01",
+  "published": true
+},
+{
+  "id":5,
+  "title": "Internship III",
+  "year": "CSCI-6694-01",
+  "published": false
+}]}
