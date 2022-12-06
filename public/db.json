@@ -1,31 +1,56 @@
-{"books": [{
+{"events": [
+  {
   "id":1,
-  "title": "A game of thrones",
-  "year": 1996,
-  "published": false
+  "title": "Holiday Giving Tree",
+  "time": "Tuesday, December 10 at 5:00PM EST",
+  "location": "Kaplan 300",
+  "seats":30,
+  "RSVP": true
 
 },
 {
   "id":2,
-  "title": "A storm of Swords",
-  "year": 2000,
-  "published": true
+  "title": "TikTok Powerpoint Night",
+  "time": "Monday, December 16 at 4:00PM EST",
+  "location": "Begami center 201",
+  "seats":45,
+  "RSVP": true
+
 },
 {
   "id":3,
-  "title": "A feast for crows",
-  "year": 2005,
-  "published": true
+  "title": "Food Drivee",
+  "time": "Tuesday, December 17 at 5:00PM EST",
+  "location": "Bergami 307",
+  "seats": 50,
+  "RSVP": true
+
 },
 {
   "id":4,
-  "title": "A dance with Dragons",
-  "year": 2011,
-  "published": true
+  "title": "LinkedIn Workshop",
+  "time": "Wednesday, December 18 at 4:00PM EST",
+  "location": "Online",
+  "seats":100,
+  "RSVP": true
+
 },
 {
   "id":5,
-  "title": "The winds of winter",
-  "year": 2022,
-  "published": false
-}]}
+  "title": "GSC Body Meeting",
+  "time": "Wednesday, December 18 at 3:00PM EST",
+  "location": "German club",
+  "seats":30,
+  "RSVP": true
+
+},
+{
+  "id":6,
+  "title": "Theatre Club Meeting",
+  "time": "Thursday, December 19 at 6:00PM EST",
+  "location": "Kaplan 300",
+  "seats":30,
+  "RSVP": true
+}
+]
+}
