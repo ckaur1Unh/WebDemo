@@ -20,8 +20,8 @@ const server   =http.createServer(async(req,res) => {
 const headers = {
     "Access-Control-Allow-Origin": "*",
     "Access-Control-Allow-Methods": "OPTIONS, POST, GET",
-    "Access-Control-Max-Age": 2592000, // 30 days
-    "Content-Type": 'application/json' 
+
+  
   };
 console.log(req.url)
 if(req.url === '/'){
@@ -36,11 +36,20 @@ if(req.url === '/'){
 }
 else if(req.url=='/api')
 {
-  
+    // fs.readFile( path.join(__dirname,'public','db.json'),(err,data)=>{
+
+    //     if (err) throw err;
+
+    //     res.writeHead(200,headers);
+		
+		
+    //     res.end(data);
+    //     })
     const cursor = client.db("campus").collection("project").find({});
     const results = await cursor.toArray();
     //console.log(results);
     const js= (JSON.stringify(results));
+    res.writeHead(200,headers)
     console.log(js);
     res.end(js);
 
