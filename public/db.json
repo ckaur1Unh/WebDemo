@@ -5,7 +5,7 @@
   "time": "Tuesday, December 10 at 5:00PM EST",
   "location": "Kaplan 300",
   "seats":30,
-  "RSVP": true
+  "RSVP": "No"
 
 },
 {
@@ -14,7 +14,7 @@
   "time": "Monday, December 16 at 4:00PM EST",
   "location": "Begami center 201",
   "seats":45,
-  "RSVP": true
+  "RSVP": "Yes"
 
 },
 {
@@ -23,7 +23,7 @@
   "time": "Tuesday, December 17 at 5:00PM EST",
   "location": "Bergami 307",
   "seats": 50,
-  "RSVP": true
+  "RSVP": "Yes"
 
 },
 {
@@ -32,7 +32,7 @@
   "time": "Wednesday, December 18 at 4:00PM EST",
   "location": "Online",
   "seats":100,
-  "RSVP": true
+  "RSVP": "No"
 
 },
 {
@@ -41,7 +41,7 @@
   "time": "Wednesday, December 18 at 3:00PM EST",
   "location": "German club",
   "seats":30,
-  "RSVP": true
+  "RSVP": "Yes"
 
 },
 {
@@ -50,7 +50,7 @@
   "time": "Thursday, December 19 at 6:00PM EST",
   "location": "Kaplan 300",
   "seats":30,
-  "RSVP": true
+  "RSVP": "Yes"
 }
 ]
 }
